@@ -422,7 +422,7 @@ function SideNav({ active }: { active: string }) {
 
 function Hero() {
   return (
-    <section id="hero" className="relative min-h-screen flex flex-col overflow-hidden" style={{ background: '#070402' }}>
+    <section id="hero" className="relative min-h-screen flex flex-col overflow-hidden" style={{ background: '#1a100b' }}>
       {/* Background */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute inset-0" style={{ background: 'radial-gradient(ellipse 70% 80% at 20% 60%, rgba(140,28,19,0.15) 0%, transparent 60%), radial-gradient(ellipse 50% 50% at 75% 30%, rgba(196,154,34,0.04) 0%, transparent 55%)' }} />
