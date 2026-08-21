@@ -1,0 +1,10 @@
+{
+  "description": "Explore a scholarly digital museum that narrates Vietnam's 1939–1945 revolutionary shift through authentic archives, interactive timelines, and in-depth analysis.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

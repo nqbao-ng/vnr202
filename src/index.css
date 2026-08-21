@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Be Vietnam Pro', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-ink-950: #050301;
+  --color-ink-900: #0d0a07;
+  --color-ink-800: #1a1309;
+  --color-ink-700: #261d0f;
+  --color-ink-600: #332714;
+  --color-ink-500: #40321a;
+
+  --color-parchment-100: #fdf8ef;
+  --color-parchment-200: #f0e9d4;
+  --color-parchment-300: #e4d6b8;
+  --color-parchment-400: #cfc09a;
+  --color-parchment-500: #b0997a;
+  --color-parchment-600: #907860;
+  --color-parchment-700: #6a5844;
+
+  --color-crimson-950: #1a0504;
+  --color-crimson-900: #2d0808;
+  --color-crimson-800: #5a1010;
+  --color-crimson-700: #7c1515;
+  --color-crimson-600: #8c1c13;
+  --color-crimson-500: #a82219;
+  --color-crimson-400: #c42d23;
+  --color-crimson-300: #e03d32;
+
+  --color-gold-950: #1a1100;
+  --color-gold-900: #3d2d04;
+  --color-gold-800: #6b4e08;
+  --color-gold-700: #9a700c;
+  --color-gold-600: #c49a22;
+  --color-gold-500: #d4aa33;
+  --color-gold-400: #e4c060;
+  --color-gold-300: #f0d48a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #0d0a07;
+  color: #f0e9d4;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0a07;
+}
+::-webkit-scrollbar-thumb {
+  background: #7c1515;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8c1c13;
+}
