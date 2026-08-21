@@ -468,7 +468,7 @@ function Hero() {
                   className="bg-crimson-700 hover:bg-crimson-600 text-parchment-100 px-7 py-3 text-sm font-semibold tracking-wide transition-colors duration-200">
                   Bắt đầu →
                 </button>
-                <span className="font-mono text-parchment-700 text-xs">9 chương · Khám phá quá trình lịch sử</span>
+                <span className="font-mono text-parchment-700 text-xs">10 chương · Khám phá quá trình lịch sử</span>
               </div>
             </div>
 

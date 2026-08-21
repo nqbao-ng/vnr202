@@ -8,12 +8,12 @@
   --font-sans: 'Be Vietnam Pro', system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
 
-  --color-ink-950: #0c0704;
-  --color-ink-900: #17100b;
-  --color-ink-800: #241a12;
-  --color-ink-700: #34271b;
-  --color-ink-600: #453522;
-  --color-ink-500: #57452f;
+  --color-ink-950: #140c08;
+  --color-ink-900: #21160f;
+  --color-ink-800: #2d1f15;
+  --color-ink-700: #423020;
+  --color-ink-600: #5a432c;
+  --color-ink-500: #705638;
 
   --color-parchment-100: #fdf8ef;
   --color-parchment-200: #f0e9d4;
@@ -48,7 +48,7 @@ html {
 
 body {
   font-family: var(--font-sans);
-  background-color: #17100b;
+  background-color: #21160f;
   color: #f0e9d4;
   -webkit-font-smoothing: antialiased;
 }
@@ -57,7 +57,7 @@ body {
   width: 3px;
 }
 ::-webkit-scrollbar-track {
-  background: #17100b;
+  background: #21160f;
 }
 ::-webkit-scrollbar-thumb {
   background: #7c1515;
