@@ -23,6 +23,7 @@ const NAV = [
   { id: 'thoico', num: '07', label: 'Thời cơ' },
   { id: 'quyetdinh', num: '08', label: 'Quyết định' },
   { id: 'baihoc', num: '09', label: 'Bài học' },
+  { id: 'tongket', num: '10', label: 'Tổng kết' },
 ];
 
 // ─── CONTENT DATA ────────────────────────────────────────────────────────────
@@ -1240,6 +1241,24 @@ function S09() {
   );
 }
 
+// ─── SECTION 10: TỔNG KẾT ───────────────────────────────────────────────────
+
+function S10() {
+  return (
+    <section id="tongket" className="min-h-screen border-t border-gold-800/40 bg-[#d8c7a8] lg:pl-[70px]">
+      <div className="min-h-screen flex items-center justify-center px-3 py-5 sm:px-6 lg:px-10">
+        <figure className="w-full max-w-[1257px] overflow-hidden border border-[#bda87c] bg-[#f6efe2] shadow-[0_22px_70px_rgba(55,31,16,0.28)]">
+          <img
+            src="/final-summary-slide.png"
+            alt="Trang tổng kết: Từ chuyển hướng đến chớp thời cơ, giai đoạn 1939–1945"
+            className="block h-auto w-full"
+          />
+        </figure>
+      </div>
+    </section>
+  );
+}
+
 // ─── APP ─────────────────────────────────────────────────────────────────────
 
 export default function App() {
@@ -1271,6 +1290,7 @@ export default function App() {
         <S07 />
         <S08 />
         <S09 />
+        <S10 />
       </main>
     </div>
   );
